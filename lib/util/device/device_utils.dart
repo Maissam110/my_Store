@@ -120,12 +120,12 @@ class TDeviceUtils {
     return Platform.isAndroid;
   }
 
-  static void launchUrl(String url) async {
-    //
-    if (await canLaunchUrlString(url)) {
-      await launchUrlString(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // static void launchUrl(String url) async {
+  //   //
+  //   if (await canLaunchUrlString(url)) {
+  //     await launchUrlString(url);
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 }
