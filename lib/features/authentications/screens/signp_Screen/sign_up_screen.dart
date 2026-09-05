@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:get/get.dart';
+import 'package:shopping_app/common/widgets/login_signup/divider_form.dart';
+import 'package:shopping_app/common/widgets/login_signup/social_buttons.dart';
+import 'package:shopping_app/features/authentications/screens/signp_Screen/widgetsst/sign_up_form.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
 import 'package:shopping_app/util/constants/text_strings.dart';
 
@@ -14,6 +17,7 @@ class SignUpScreen extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Title
               Text(
@@ -23,36 +27,15 @@ class SignUpScreen extends StatelessWidget {
               SizedBox(height: TSizes.spaceBtWSections),
 
               //  Form
-              Form(
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: TextFormField(
-                            expands: false,
-                            decoration: InputDecoration(
-                              labelText: TText.firstName,
-                              prefixIcon: Icon(Iconsax.user_copy),
-                            ),
-                          ),
-                        ),
+              TSIgnUpForm(),
+              SizedBox(height: TSizes.spaceBtWSections),
 
-                        SizedBox(width: TSizes.spaceBtWInputFields),
-                        Expanded(
-                          child: TextFormField(
-                            expands: false,
-                            decoration: InputDecoration(
-                              labelText: TText.firstName,
-                              prefixIcon: Icon(Iconsax.user_copy),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              //  Divider
+              TFormDivider(dividerText: TText.orSignUpWith.capitalize!),
+              SizedBox(height: TSizes.spaceBtWSections),
+
+              //  Social Buttons
+              TSocialButtons(),
             ],
           ),
         ),
