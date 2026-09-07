@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:shopping_app/features/authentications/screens/signp_Screen/varify_email_screen.dart';
 import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
 import 'package:shopping_app/util/constants/text_strings.dart';
@@ -128,7 +130,7 @@ class TSIgnUpForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () => Get.to(() => VarifyEmailScreen()),
               child: Text(TText.createAccount),
             ),
           ),

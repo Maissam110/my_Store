@@ -9,7 +9,19 @@ class TImages {
   static String facebook = "assets/logo/facebook.png";
 
   //  OnBoarding Images
-  static String onBoardingScreen1 = "assets/logo/onBoardingScreen1.gif";
-  static String onBoardingScreen2 = "assets/logo/onBoardingScreen2.gif";
-  static String onBoardingScreen3 = "assets/logo/onBoardingScreen3.gif";
+  static String onBoardingScreen1 = "assets/logo/sammy-line-searching.gif";
+  static String onBoardingScreen2 = "assets/logo/sammy-line-shopping.gif";
+  static String onBoardingScreen3 = "assets/logo/sammy-line-delivery.gif";
+
+  // -- Animations
+  static String productsIllustration = "assets/logo/sammy-line-workout.gif";
+  static String productsSalesIllustration = "assets/logo/sammy-line-sale.png";
+  static String staticSuccussIllustration =
+      "assets/logo/sammy-line-success.png";
+  static String deliveredInPlanIllustration =
+      "assets/logo/sammy-line-come-back-later.png";
+  static String deliveredEmailIllustration =
+      "assets/logo/sammy-line-man-recieve-a-small-eamil.png";
+  static String verifyIllustration =
+      "assets/logo/sammy-line-travel-backpack-with-passwort-and-air-ticket.gif";
 }
