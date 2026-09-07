@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:shopping_app/features/authentications/screens/password_configuration/reset_password.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
 import 'package:shopping_app/util/constants/text_strings.dart';
 
@@ -32,6 +34,17 @@ class ForgotPassword extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: TText.email,
                 prefixIcon: Icon(Iconsax.direct_right_copy),
+              ),
+            ),
+
+            SizedBox(height: TSizes.spaceBtWSections),
+
+            //  Submit Button
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () => Get.off(() => ResetPassword()),
+                child: Text(TText.submit),
               ),
             ),
           ],
