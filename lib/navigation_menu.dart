@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
-import 'package:shopping_app/features/shop/screens/home/widgets/home_screen.dart';
+import 'package:shopping_app/features/shop/screens/home/home_screen.dart';
 import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/helpers/helper_function.dart';
 
