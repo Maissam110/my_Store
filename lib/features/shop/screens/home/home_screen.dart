@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:shopping_app/common/widgets/custom_shapes/containers/search_container.dart';
+import 'package:shopping_app/common/widgets/layouts/grid_layout.dart';
+import 'package:shopping_app/common/widgets/products/products_card/product_card_vertical.dart';
 import 'package:shopping_app/common/widgets/texts/section_heading.dart';
 import 'package:shopping_app/features/shop/screens/home/widgets/home_app_bar.dart';
 import 'package:shopping_app/features/shop/screens/home/widgets/home_categories.dart';
@@ -55,11 +57,23 @@ class HomeScreen extends StatelessWidget {
             //  Body
             Padding(
               padding: EdgeInsets.all(TSizes.defaultSpace),
-              child: TPromoSlider(
-                banner: [
-                  TImages.promoBanner1,
-                  TImages.promoBanner2,
-                  TImages.promoBanner3,
+              child: Column(
+                children: [
+                  TPromoSlider(
+                    banner: [
+                      TImages.promoBanner1,
+                      TImages.promoBanner2,
+                      TImages.promoBanner3,
+                    ],
+                  ),
+                  SizedBox(height: TSizes.spaceBtWSections),
+
+                  //  Populer Products
+                  TGridLayout(
+                    itemCount: 2,
+                    itemBuilder: (_, index) => TProductCardVertical(),
+                  ),
+                  TProductCardVertical(),
                 ],
               ),
             ),

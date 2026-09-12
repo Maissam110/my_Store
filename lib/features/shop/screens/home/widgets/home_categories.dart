@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/common/widgets/image_list_widgets/vertical_image_list.dart';
+import 'package:shopping_app/common/widgets/image_text_widgets/vertical_image_list.dart';
 
 class THomeCategories extends StatelessWidget {
   const THomeCategories({super.key});

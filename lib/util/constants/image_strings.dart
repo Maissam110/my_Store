@@ -40,4 +40,84 @@ class TImages {
   static String promoBanner1 = "assets/images/banners/sammy-line-delivery.gif";
   static String promoBanner2 = "assets/images/banners/sammy-line-delivery.gif";
   static String promoBanner3 = "assets/images/banners/sammy-line-delivery.gif";
+
+  //  Products Images
+  static String productImage1 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage2 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage3 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage4 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage5 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage6 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage7 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage8 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage9 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage10 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage11 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage12 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage13 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage14 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage15 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage16 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage17 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage18 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage19 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage20 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage21 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage22 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage23 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage24 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage25 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage26 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage27 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage28 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage29 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage30 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage31 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage32 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage33 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage34 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage35 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage36 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage37 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage38 =
+      "assets/images/products/sammy-line-delivery.gif";
+  static String productImage39 =
+      "assets/images/products/sammy-line-delivery.gif";
 }
