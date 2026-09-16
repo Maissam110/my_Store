@@ -4,12 +4,8 @@ import 'package:shopping_app/util/constants/colors.dart';
 
 class TCartMenuIcon extends StatelessWidget {
   final VoidCallback onPressed;
-  final Color iconColor;
-  const TCartMenuIcon({
-    super.key,
-    required this.onPressed,
-    required this.iconColor,
-  });
+  final Color? iconColor;
+  const TCartMenuIcon({super.key, required this.onPressed, this.iconColor});
 
   @override
   Widget build(BuildContext context) {
