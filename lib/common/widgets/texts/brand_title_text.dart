@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax_flutter/iconsax_flutter.dart';
-import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/enums.dart';
-import 'package:shopping_app/util/constants/sizes.dart';
 
 class TBrandTitleText extends StatelessWidget {
   final Color? color;

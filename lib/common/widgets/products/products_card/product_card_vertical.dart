@@ -49,6 +49,7 @@ class TProductCardVertical extends StatelessWidget {
                     top: 12,
                     child: TRoundedContainer(
                       radius: TSizes.sm,
+
                       backgroundColor: TColors.secondary.withOpacity(0.8),
                       padding: EdgeInsets.symmetric(
                         horizontal: TSizes.sm,
@@ -68,7 +69,7 @@ class TProductCardVertical extends StatelessWidget {
                     top: 0,
                     right: 0,
                     child: TCircularIcon(
-                      icon: Iconsax.heart_copy,
+                      icon: Iconsax.heart,
                       color: Colors.red,
                     ),
                   ),
