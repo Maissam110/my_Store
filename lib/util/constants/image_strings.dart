@@ -41,6 +41,9 @@ class TImages {
   static String promoBanner2 = "assets/images/banners/sammy-line-delivery.gif";
   static String promoBanner3 = "assets/images/banners/sammy-line-delivery.gif";
 
+  //  User Image
+  static String user = "assets/images/user/userImage.png";
+
   //  Products Images
   static String productImage1 =
       "assets/images/products/sammy-line-delivery.gif";
