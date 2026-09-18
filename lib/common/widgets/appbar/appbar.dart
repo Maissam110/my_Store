@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
+import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
 import 'package:shopping_app/util/device/device_utils.dart';
+import 'package:shopping_app/util/helpers/helper_function.dart';
 
 class TAppbar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? title;
@@ -21,6 +23,7 @@ class TAppbar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = THelperFunction.isDarkMode(context);
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: TSizes.md),
       child: AppBar(
@@ -28,7 +31,10 @@ class TAppbar extends StatelessWidget implements PreferredSizeWidget {
         leading: showBackArrow
             ? IconButton(
                 onPressed: () => Get.back(),
-                icon: Icon(Iconsax.arrow_left_copy),
+                icon: Icon(
+                  Iconsax.arrow_left_copy,
+                  color: dark ? TColors.white : TColors.dark,
+                ),
               )
             : leadingIcon != null
             ? IconButton(onPressed: leadindOnPressed, icon: Icon(leadingIcon))

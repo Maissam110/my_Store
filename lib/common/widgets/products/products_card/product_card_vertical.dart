@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:shopping_app/common/styles/shadow_style.dart';
 import 'package:shopping_app/common/widgets/custom_shapes/containers/rounded_container.dart';
@@ -7,6 +8,7 @@ import 'package:shopping_app/common/widgets/images/rounded_image.dart';
 import 'package:shopping_app/common/widgets/price_text_widgets/product_price_text.dart';
 import 'package:shopping_app/common/widgets/texts/brand_title_text_with_varification_icon.dart';
 import 'package:shopping_app/common/widgets/texts/product_title_text.dart';
+import 'package:shopping_app/features/shop/screens/product_details/product_detail.dart';
 import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/image_strings.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
@@ -19,7 +21,7 @@ class TProductCardVertical extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = THelperFunction.isDarkMode(context);
     return GestureDetector(
-      onTap: () {},
+      onTap: () => Get.to(() => ProductDetail()),
       child: Container(
         width: 180,
         decoration: BoxDecoration(

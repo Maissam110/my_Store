@@ -5,8 +5,8 @@ import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/image_strings.dart';
 
 class TUserProfileTile extends StatelessWidget {
-  final VoidCallback? onPressed;
-  const TUserProfileTile({super.key, this.onPressed});
+  final VoidCallback onPressed;
+  const TUserProfileTile({super.key, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {

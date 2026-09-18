@@ -1,17 +1,19 @@
 class TImages {
   //  App Logo
-  static String darkAppLogo = "assets/logo/";
-  static String lightAppLogo = "assets/logo/";
+  static String darkAppLogo = "assets/logo/dark_logo.png";
+  static String lightAppLogo = "assets/logo/white_logo.png";
 
   //  Social Icons
 
-  static String google = "assets/logo/google.png";
-  static String facebook = "assets/logo/facebook.png";
+  static String google = "assets/logo/google_logo.png";
+  static String facebook = "assets/logo/facebook_logo.png";
 
   //  OnBoarding Images
-  static String onBoardingScreen1 = "assets/logo/sammy-line-searching.gif";
-  static String onBoardingScreen2 = "assets/logo/sammy-line-shopping.gif";
-  static String onBoardingScreen3 = "assets/logo/sammy-line-delivery.gif";
+  static String onBoardingScreen1 = "assets/images/onBoarding_images/intro.png";
+  static String onBoardingScreen2 =
+      "assets/images/onBoarding_images/intro1.png";
+  static String onBoardingScreen3 =
+      "assets/images/onBoarding_images/intro2.png";
 
   // -- Animations
   static String productsIllustration = "assets/logo/sammy-line-workout.gif";
