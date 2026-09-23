@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_app/util/constants/colors.dart';
-import 'package:shopping_app/util/constants/image_strings.dart';
-import 'package:shopping_app/util/constants/sizes.dart';
 import 'package:shopping_app/util/helpers/helper_function.dart';
 
 class TCircularImage extends StatelessWidget {

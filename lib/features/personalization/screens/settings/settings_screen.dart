@@ -3,13 +3,11 @@ import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:shopping_app/common/widgets/appbar/appbar.dart';
 import 'package:shopping_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
-import 'package:shopping_app/common/widgets/images/circular_image.dart';
 import 'package:shopping_app/common/widgets/list_tiles/user_profile_tile.dart';
 import 'package:shopping_app/common/widgets/texts/section_heading.dart';
 import 'package:shopping_app/common/widgets/list_tiles/settings_menu_tile.dart';
 import 'package:shopping_app/features/personalization/screens/profile/profile_screen.dart';
 import 'package:shopping_app/util/constants/colors.dart';
-import 'package:shopping_app/util/constants/image_strings.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
 
 class SettingsScreen extends StatelessWidget {
