@@ -6,6 +6,7 @@ import 'package:shopping_app/common/widgets/custom_shapes/containers/primary_hea
 import 'package:shopping_app/common/widgets/list_tiles/user_profile_tile.dart';
 import 'package:shopping_app/common/widgets/texts/section_heading.dart';
 import 'package:shopping_app/common/widgets/list_tiles/settings_menu_tile.dart';
+import 'package:shopping_app/features/personalization/screens/address/address.dart';
 import 'package:shopping_app/features/personalization/screens/profile/profile_screen.dart';
 import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/sizes.dart';
@@ -55,6 +56,12 @@ class SettingsScreen extends StatelessWidget {
                   ),
                   SizedBox(height: TSizes.spaceBtWItems),
 
+                  TSettingsMenuTile(
+                    icon: Iconsax.shopping_cart_copy,
+                    title: 'My Address',
+                    subtitle: 'Set Shopping Delivery Address',
+                    onTap: () => Get.to(() => UserAddressScreen()),
+                  ),
                   TSettingsMenuTile(
                     icon: Iconsax.shopping_cart_copy,
                     title: 'My Cart',
