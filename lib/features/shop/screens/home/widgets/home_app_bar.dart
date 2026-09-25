@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shopping_app/common/widgets/appbar/appbar.dart';
 import 'package:shopping_app/common/widgets/products/cart_Products/cart_menu_Icon.dart';
+import 'package:shopping_app/features/shop/screens/cart/cart.dart';
 import 'package:shopping_app/util/constants/colors.dart';
 import 'package:shopping_app/util/constants/text_strings.dart';
 
@@ -28,7 +30,12 @@ class THomeAppBar extends StatelessWidget {
           ),
         ],
       ),
-      action: [TCartMenuIcon(onPressed: () {}, iconColor: TColors.white)],
+      action: [
+        TCartMenuIcon(
+          onPressed: () => Get.to(() => CartScreen()),
+          iconColor: TColors.white,
+        ),
+      ],
     );
   }
 }
